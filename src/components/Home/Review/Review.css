@@ -1,0 +1,71 @@
+.single-review{
+    border: 2px dotted #fd703c;
+    padding: 3px;
+    border-radius: 10px;
+}
+.single-review img{
+    width: 70px;
+    height: 70px;
+    border: 2px solid #fd703c;
+    border-radius: 50%;
+    margin-top: -115px;
+}
+.single-review h6{
+    font-size: 16px;
+}
+.my-color{
+    color: #fd703c;
+}
+
+/* slider dot  */
+.gnUtRS{
+    display: none !important;
+}
+.rating{
+    width: 35%;
+    margin: auto;
+}
+
+@media only screen and (max-width:1024px) {
+    .rating{
+        width: 45%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:912px) {
+    .rating{
+        width: 40%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:820px) {
+    .rating{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:912px) {
+    .rating{
+        width: 40%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:540px) {
+    .rating{
+        width: 30%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:420px) {
+    .rating{
+        width: 50%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:360px) {
+    .rating{
+        width: 60%;
+        margin: auto;
+    }
+}

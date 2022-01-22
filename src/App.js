@@ -5,9 +5,10 @@ import Home from './components/Home/Home'
 import Services from './components/Services/Services';
 import Refferal from './components/Referral/Refferal';
 import Contact from './components/Contact/Contact';
+import AuthProvider from './contexts/AuthProvider';
 function App() {
   return (
-    <div>
+    <AuthProvider>
       <BrowserRouter>
         <Header />
         <Routes>
@@ -17,7 +18,7 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
       </BrowserRouter>
-    </div>
+    </AuthProvider>
   );
 }
 

@@ -7508,6 +7508,11 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
+"react-stars@^2.2.5":
+  "integrity" "sha1-kRhSAY4VdKD5osHfpPC8mvBxuSE="
+  "resolved" "https://registry.npmjs.org/react-stars/-/react-stars-2.2.5.tgz"
+  "version" "2.2.5"
+
 "react-swipeable@^5.5.1":
   "integrity" "sha512-EQObuU3Qg3JdX3WxOn5reZvOSCpU4fwpUAs+NlXSN3y+qtsO2r8VGkVnOQzmByt3BSYj9EWYdUOUfi7vaMdZZw=="
   "resolved" "https://registry.npmjs.org/react-swipeable/-/react-swipeable-5.5.1.tgz"
