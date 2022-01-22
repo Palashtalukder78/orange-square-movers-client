@@ -1,0 +1,20 @@
+#banner{
+    background-image: url('../../../files/images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 70px 0;
+}
+.banner-content{
+    color: #ffffff;
+}
+.banner-content h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.banner-columns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

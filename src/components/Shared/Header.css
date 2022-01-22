@@ -1,0 +1,27 @@
+.menu{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 18px;
+}
+.navigation{
+    padding: 10px 0;
+}
+.menu:hover{
+    color: rgb(236, 226, 226);
+}
+.social-icon{
+    color: #ffffff;
+}
+
+
+@media only screen and (min-width:778px){
+    .social-items{
+        display: flex;
+        color: #000;
+        flex-direction: row;
+    }
+    .social-items a{
+        margin:0
+    }
+}
