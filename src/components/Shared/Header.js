@@ -15,25 +15,25 @@ const Header = () => {
                     <Nav className="me-auto">
                         <NavLink
                             className="menu"
-                            to="/home"
+                            to="/"
                         >
                             Home
                         </NavLink>
                         <NavLink
                             className="menu"
-                            to="/home"
+                            to="/services"
                         >
                             Service
                         </NavLink>
                         <NavLink
                             className="menu"
-                            to="/home"
+                            to="/refferal"
                         >
                             Refferal
                         </NavLink>
                         <NavLink
                             className="menu"
-                            to="/home"
+                            to="/contact"
                         >
                             Contact
                         </NavLink>

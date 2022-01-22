@@ -2,7 +2,9 @@ import { TextField } from '@mui/material';
 import React from 'react';
 import './BannerForm.css';
 import trucks from '../../../files/images/truck.gif'
+
 const BannerForms = () => {
+    
     return (
         <div id="banner-form">
             <div className='text-center'>
@@ -20,7 +22,7 @@ const BannerForms = () => {
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6" >
                             <TextField className="orange-field mb-3" id="outlined-basic" label="From" variant="outlined" />
                         </div>
                         <div class="col-md-6">
