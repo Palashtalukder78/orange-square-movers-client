@@ -30,7 +30,7 @@ const BannerForms = () => {
                         </div>
                     </div>
                     <div className='d-grid'>
-                        <button className='my-btn'>ASKING FOR THE COST</button>
+                        <button className='my-btn'>Get Free Quote</button>
                     </div>
                 </div>
             </form>

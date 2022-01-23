@@ -13,8 +13,10 @@
 .single-review h6{
     font-size: 16px;
 }
-.my-color{
+.my-heading{
     color: #fd703c;
+    font-size: 35px;
+    text-align: center;
 }
 
 /* slider dot  */

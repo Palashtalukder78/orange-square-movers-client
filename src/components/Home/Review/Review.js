@@ -14,17 +14,17 @@ const Review = () => {
     const {allReviews} = useAuth();
     const {reviews} = allReviews;
     return (
-        <div className='my-5'>
+        <div className='mt-5'>
             <div className='text-center'>
-                <h2 className='my-color'>Clients Reviews</h2>
+                <h2 className='my-heading'>Clients Reviews</h2>
             </div>
-            <div class="container ">
+            <div class="container py-2">
                 <Carousel breakPoints={breakPoints}>
                 {
                     reviews.map(review => (
                         <Item>
                             <div className="single-review text-center text-dark">
-                                <div style={{height:"30px"}}>
+                                <div style={{height:"28px"}}>
                                     <img className="img-fluid home-category-photo" src={review.photo} alt="" />
                                 </div>
                                 <div className='rating' >
