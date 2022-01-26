@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Item from './Item';
 import Carousel from "react-elastic-carousel";
 import useAuth from '../../../hooks/useAuth';
 import './Review.css'
 import ReactStars from 'react-stars';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const breakPoints = [
     { width: 400, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
@@ -13,13 +15,16 @@ const breakPoints = [
 const Review = () => {
     const {allReviews} = useAuth();
     const {reviews} = allReviews;
+    useEffect(() =>{
+        AOS.init();
+    },[]);
     return (
-        <div className='mt-5'>
+        <div className='mt-5' data-aos="fade-down" data-aos-delay="500">
             <div className='text-center'>
                 <h2 className='my-heading'>Clients Reviews</h2>
             </div>
-            <div class="container py-2">
-                <Carousel breakPoints={breakPoints}>
+            <div class="container py-2" >
+                <Carousel breakPoints={breakPoints} >
                 {
                     reviews.map(review => (
                         <Item>

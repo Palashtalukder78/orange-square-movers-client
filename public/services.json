@@ -1,0 +1,32 @@
+[
+    {
+        "service_name": "Local area moving",
+        "description": "If you need to move one item or a full household, contact us today for a free estimate. We serve all Colorado with local moving services.",
+        "photo":"https://i.postimg.cc/6p2pLDWz/local-mover.jpg"
+    },
+    {
+        "service_name": "Long Distance Relocation",
+        "description": "Are you planning to move out of state? We would be happy to answer any questions you might have. Contact us today to discuss rates and availability.",
+        "photo":"https://i.postimg.cc/TwRxSS6z/Long-Distance-Relocation.jpg"
+    },
+    {
+        "service_name": "Storage",
+        "description": "You may need to store a few items or a full household. We have safe and secure professional storage that you can depend on. Our facility is fully equipped to handle furniture and commercial needs.",
+        "photo":"https://i.postimg.cc/HsfgHjm4/Storage.jpg"
+    },
+    {
+        "service_name": "Free Estimates",
+        "description": "We offer free estimates with no obligation and no strings attached. Give us a call and we'd be happy to discuss your upcoming move and provide you with a free consultation and estimate. Let's get you moving in the right direction.",
+        "photo":"https://i.postimg.cc/rsskyrzg/Free-Estimates.jpg"
+    },
+    {
+        "service_name": "Packing Services",
+        "description": "Whether you need to pack a few items or everything in your home, we can help. Our team is fully qualified to pack everything from the items in your garage to the china and dishes in your hutch.",
+        "photo":"https://i.postimg.cc/HsfgHjm4/Storage.jpg"
+    },
+    {
+        "service_name": "Packing Supplies",
+        "description": "When it comes to boxes, we've got you covered. We offer a full range of packing supplies at great prices.",
+        "photo":"https://i.postimg.cc/kXZn4fQS/Packing-Supplies.jpg"
+    }
+]

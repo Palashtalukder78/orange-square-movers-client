@@ -1,26 +1,31 @@
 import React from 'react';
 import './Services.css';
-import cartOnePhoto from '../../../files/images/local-mover.jpg'
 import PopupForm from '../../Forms/PopupForm/PopupForm';
+import useAuth from '../../../hooks/useAuth';
 const Services = () => {
+    const {allServices} = useAuth();
+    const {services} = allServices;
     return (
         <div className='mb-5'>
             <h2 className='my-heading'>Our Services</h2>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-4">
-                        <div className="card" style={{backgroundImage:`url(${cartOnePhoto})`, backgroundPosition:"center"}}>
-                            <div className="card-content">
-                                <h4 className="card-title">Something Awesome</h4>
-                                <p className="card-body">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae?
-                                </p>
-                                <button type="button" className='my-btn' data-toggle="modal" data-target="#exampleModalCenter">Learn More</button>
+                {
+                    services.map(service => (
+                        <div className="col-md-4 my-3">
+                            <div className="card" style={{backgroundImage:`url(${service.photo})`, backgroundPosition:"center"}}>
+                                <div className="card-content">
+                                    <h4 className="card-title">{service.service_name}</h4>
+                                    <p className="card-body">
+                                            {service.description.slice(0,100)}...
+                                    </p>
+                                    <button type="button" className='my-btn' data-toggle="modal" data-target="#exampleModalCenter">Learn More</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    ))
+                }
                 </div>
-
                 <div className="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div className="modal-content">
