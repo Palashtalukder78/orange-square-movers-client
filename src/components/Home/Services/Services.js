@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Services.css';
 import PopupForm from '../../Forms/PopupForm/PopupForm';
 import useAuth from '../../../hooks/useAuth';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Services = () => {
     const {allServices} = useAuth();
     const {services} = allServices;
+    useEffect(() =>{
+        AOS.init();
+    },[]);
     return (
-        <div className='mb-5'>
+        <div className='mb-5' >
             <h2 className='my-heading'>Our Services</h2>
             <div className="container">
-                <div className="row">
+                <div className="row" data-aos="fade-down" data-aos-delay="500">
                 {
                     services.map(service => (
                         <div className="col-md-4 my-3">

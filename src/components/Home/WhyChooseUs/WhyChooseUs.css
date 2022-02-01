@@ -1,0 +1,11 @@
+.flexible{
+    display: flex;
+    align-items: center;
+}
+.why-choose-us-icon{
+    font-size: 50px !important;
+    color: #fd703c;
+}
+.thick{
+    font-weight: 300;
+}
