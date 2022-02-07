@@ -1,0 +1,30 @@
+.our-main-priority{
+    background-color: #f5f5f5;
+}
+.our-main-priority h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.our-main-priority-hr{
+    width: 10%;
+    border: 7px solid #fd703c !important;
+    background-color: #fd703c;
+}
+.our-main-priority-check{
+    color: #fd703c;
+    font-size: 30px !important;
+    border: 1px solid #fd703c;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+.priority-content-flexible{
+    display: flex;
+    margin: 25px 0;
+}
+.priority-content-flexible h5{
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 1.4em;
+    font-weight: 300;
+}

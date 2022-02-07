@@ -8,13 +8,13 @@ import PriceChangeIcon from '@mui/icons-material/PriceChange';
 import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
 const WhyChooseUs = () => {
     return (
-        <div class="container">
+        <div class="container ">
             <div class="row flexible">
                 <div class="col-md-6 mb-3">
                     <img className='img-fluid' src={photo1} alt="" />
                     <img className='img-fluid' src={photo2} alt="" />
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 ">
                     <div>
                         <h3 className='my-heading'>Why Choose Us?</h3>
                         <div className='my-4'>

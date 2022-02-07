@@ -1,0 +1,44 @@
+.background-one{
+    background-image: url('../../../files/images/home-background-photo-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+.call-icon{
+    font-size: 78px !important;
+    color: #ffffff;
+}
+.background-one h1{
+    font-size: 78px;
+    font-weight: 700;
+}
+.background-social-icon{
+    font-size: 60px !important;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+    color: #ffffff;
+    margin-right: 15px;
+}
+.background-social-icon:hover{
+    color: #fd703c;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    transition: 0.4s;
+}
+
+@media only screen and (max-width:500px){
+    .background-one h5{
+        font-weight: 300;
+        font-size: 16px
+    }
+    .call-icon{
+        font-size: 45px !important;
+        color: #ffffff;
+    }
+    .background-one h1{
+        font-size: 45px;
+        font-weight: 600;
+    }
+}
