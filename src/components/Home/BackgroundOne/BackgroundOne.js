@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './BackgroundOne.css';
 import CallIcon from '@mui/icons-material/Call';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const BackgroundOne = () => {
+    useEffect(() =>{
+        AOS.init();
+    },[]);
     return (
-        <div className="background-one text-light">
+        <div className="background-one text-light" data-aos="fade-down" data-aos-delay="500">
             <div className='container'>
                     <h5>Mon-Fri 9AM-5PM | | Saturday 9am-12:00pm | | Sunday and Holidays Closed</h5>
                     <h1>

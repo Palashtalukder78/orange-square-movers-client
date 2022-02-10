@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './OurMainPriority.css';
 import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
-import chair from '../../../files/images/chair.jpg'
+import chair from '../../../files/images/chair.jpg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const OurMainPriority = () => {
+    useEffect(() =>{
+        AOS.init();
+    },[]);
     return (
         <div className='our-main-priority'> 
             <div class="container">
                 <div class="row py-5 flexible">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-down" data-aos-delay="500">
                         <h1>Your Peace Of Mind is Our Main Priority</h1>
                         <hr className='our-main-priority-hr'/>
                         <h4 className='text-secondary'>If you hire us, we promise to:</h4>
@@ -30,7 +35,7 @@ const OurMainPriority = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                         <img className='img-fluid' src={chair} alt="" />
                     </div>
                 </div>

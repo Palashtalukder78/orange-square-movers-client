@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './WhyChooseUs.css';
 import photo1 from '../../../files/images/why-choose-us-1.jpg';
 import photo2 from '../../../files/images/why-choose-us-2.png';
@@ -6,15 +6,20 @@ import PriceCheckIcon from '@mui/icons-material/PriceCheck';
 import ScheduleIcon from '@mui/icons-material/Schedule';
 import PriceChangeIcon from '@mui/icons-material/PriceChange';
 import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const WhyChooseUs = () => {
+    useEffect(() =>{
+        AOS.init();
+    },[]);
     return (
         <div class="container ">
             <div class="row flexible">
-                <div class="col-md-6 mb-3">
+                <div class="col-md-6 mb-3" data-aos="fade-up" data-aos-delay="300">
                     <img className='img-fluid' src={photo1} alt="" />
                     <img className='img-fluid' src={photo2} alt="" />
                 </div>
-                <div class="col-md-6 ">
+                <div class="col-md-6 " data-aos="fade-up" data-aos-delay="500">
                     <div>
                         <h3 className='my-heading'>Why Choose Us?</h3>
                         <div className='my-4'>

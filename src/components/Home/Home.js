@@ -1,6 +1,7 @@
 import React from 'react';
 import BackgroundOne from './BackgroundOne/BackgroundOne';
 import Banner from './Banner/Banner';
+import DontOverPay from './DontOverPay/DontOverPay';
 import OurMainPriority from './OurMainPriority/OurMainPriority';
 import Review from './Review/Review';
 import Services from './Services/Services';
@@ -14,6 +15,7 @@ const Home = () => {
             <WhyChooseUs></WhyChooseUs>
             <BackgroundOne></BackgroundOne>
             <OurMainPriority></OurMainPriority>
+            <DontOverPay></DontOverPay>
         </div>
     );
 };
