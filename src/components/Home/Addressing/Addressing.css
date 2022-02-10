@@ -1,0 +1,29 @@
+.addressing{
+    background-color: #f5f5f5;
+    padding: 100px 0;
+}
+.opening-and-phone-number{
+    color: #fd703c;
+}
+.addressing-call-icon{
+    font-size: 78px !important;
+    color: #fd703c !important;
+}
+.opening-and-phone-number h1{
+    font-size: 78px !important;
+    font-weight: 700;
+}
+.addressing p{
+    font-size: 14px;
+}
+.addressing h5{
+    font-weight: 400;
+}
+.addressing .icon{
+    font-size: 70px !important;
+    color: #fd703c;
+}
+.flexible-info{
+    display: flex;
+    
+}

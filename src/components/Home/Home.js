@@ -1,4 +1,5 @@
 import React from 'react';
+import Addressing from './Addressing/Addressing';
 import BackgroundOne from './BackgroundOne/BackgroundOne';
 import Banner from './Banner/Banner';
 import DontOverPay from './DontOverPay/DontOverPay';
@@ -16,6 +17,7 @@ const Home = () => {
             <BackgroundOne></BackgroundOne>
             <OurMainPriority></OurMainPriority>
             <DontOverPay></DontOverPay>
+            <Addressing></Addressing>
         </div>
     );
 };
