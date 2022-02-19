@@ -1,0 +1,112 @@
+/* .countdown-one{
+    padding: 100px;
+    background-image: url('../../../files/images/box.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.45;
+}
+.countdown-flexible{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.countdown-flexible h2{
+    color: rgb(255, 255, 255) !important;
+    opacity: 1;
+}
+ */
+ .countdown-flexible{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ .countdown-one{
+    position: relative; 
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../files/images/box.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .countdown-three{
+    position: relative; 
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../files/images/miles-travels.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .countdown-two{
+    position: relative; 
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../files/images/happy-customers.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .countdown-four{
+    position: relative; 
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../files/images/roles-of-tape.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ 
+  .countdown-one::before, .countdown-three::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #fd6f3cce;
+  }
+  .countdown-two::before, .countdown-four::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #38160ad2;
+  }
+  .countdown h1{
+    position: relative;
+    color: #ffffff;  
+    font-size: 75px;
+    font-weight: 300;
+  }
+  .countdown h4{
+    position: relative;
+    color: #ffffff;  
+    margin: 0;
+    
+  }
+  .countdown-icon{
+      font-size: 45px !important;
+      color: #ffffff;
+      position: relative;
+      margin-bottom: 10px;
+  }

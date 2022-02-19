@@ -1,0 +1,18 @@
+.footer{
+    background-color: #252525;
+}
+.footer p{
+    text-align: justify;
+}
+.footer-hr{
+    width: 10%;
+    border: 3px solid #fd703c;
+}
+.footer-menu{
+    text-decoration: none;
+    color: #999595;
+}
+.footer-menu:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
